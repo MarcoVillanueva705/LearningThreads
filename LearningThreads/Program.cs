@@ -8,6 +8,7 @@ namespace LearningThreads
     {
         static void Main(string[] args)
         {
+            //research manual threads vs threads created by tasks
             Thread myThread = new Thread(new ThreadStart(Work));
 
             myThread.Start();
